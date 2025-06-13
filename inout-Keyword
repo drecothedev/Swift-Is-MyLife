@@ -23,7 +23,7 @@ func swipSwapNormal<T>(_ val1: T, _ val2: T) {
 
 
 // With "inout" keyword
-func swapSwapInAndOut<T>(_ val1: inout T, _ val2: inout T) {
+func swipSwapInAndOut<T>(_ val1: inout T, _ val2: inout T) {
     let temp = val1
     val1 = val2
     val2 = temp
