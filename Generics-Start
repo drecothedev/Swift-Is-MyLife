@@ -36,4 +36,4 @@ print(swipSwapInAndOut(&val1, &val2)) // Notice the Amperson next to the "inout"
 print(swipSwapInAndOut(&valNum1, &valNum2))
 
 '''
-
+With our Generic vals we can easily repeat the same method without having to specify the type, which leads to more reusable code. 
