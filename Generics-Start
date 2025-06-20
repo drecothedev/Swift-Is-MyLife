@@ -2,7 +2,7 @@ Generics in Swift
 
 Generics give you a way to write more flexible functions because they allow you to perform operations on any value types. They give us the freedom to write less redundant code. 
 
-'''swift
+```swift
 func swapTwoInts(_ a: inout Int, _ b: inout Int) {
     let temporaryA = a
     a = b
@@ -35,5 +35,5 @@ print(swipSwapNormal(val1, val2))
 print(swipSwapInAndOut(&val1, &val2)) // Notice the Amperson next to the "inout" value being passed in.
 print(swipSwapInAndOut(&valNum1, &valNum2))
 
-'''
+```
 With our Generic vals we can easily repeat the same method without having to specify the type, which leads to more reusable code. 
