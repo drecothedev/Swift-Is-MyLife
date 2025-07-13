@@ -67,7 +67,8 @@ VStack(alignment: isMoving ? .trailing : .leading) {
                 .resizable()
                 .frame(width: 100, height: 100)
             
-            Toggle("Move to trailing edge", isOn: $isMoving.animation(.linear)) // Automatically perform state changes with animations on binding                                                                                 // values                                                                                                                                                                          
+            Toggle("Move to trailing edge", isOn: $isMoving.animation(.linear)) // Automatically perform state changes with animations on binding
+                                                                                // values                                                                                                                                                                                                                                                      
         }
 
 ```
