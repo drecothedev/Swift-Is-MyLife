@@ -43,6 +43,6 @@ func swapWithInAndOut<T>(_ val1: inout T, _ val2: inout T) {
 }
 
 ```
-And that is how to use functions. Functions are a great way to organize your code and create a more modular enviroment. THe best way to learn about them is to use them in practice. 
+And that is how to use functions. Functions are a great way to organize your code and create a more modular enviroment. The best way to learn about them is to use them in practice. 
 
 
