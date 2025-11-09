@@ -20,6 +20,8 @@ struct Twirl: Transition {
                 )
             )
     }
+
+    // https://developer.apple.com
 }
 ```
 
@@ -47,6 +49,8 @@ struct TransitionsView: View {
 }
 ```
 
+https://github.com/user-attachments/assets/252c0006-7abb-4dc6-bf03-0b2382390f5a
+
 Similiary here is a transition that rolls the view into fram across the x axis: 
 
 ```swift
@@ -66,4 +70,9 @@ struct SlideIn: Transition {
 }
 ```
 
+https://github.com/user-attachments/assets/6c501978-3b0f-4558-9478-a1d76a96e72a
+
 This smooth transition might startle your user with swag but it will be pleasent. jk. But in this code we are honestly performing a similiar task. We are tracking the phase of the transition and making changes to the view during those phases. Pretty simple right. 
+
+
+
